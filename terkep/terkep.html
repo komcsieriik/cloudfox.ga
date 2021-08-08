@@ -1,30 +1,114 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>Cloudfox Térkép</title>
-  <style>
-    * {
-      margin:     0;
-      padding:    0;
-      box-sizing: border-box;
-    }
 
-    body, html, iframe {
-      width:  100%;
-      height: 100%;
-    }
-    
-    iframe {
-      border: none;
-    }
+     <title>Cloudfox | Minecraft szerver</title>
 
-    body {
-      display: flex;
-    }    
-  </style>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+     <meta name="description" content="Cloudfox szerver weboldala.">
+     <meta name="keywords" content="cloudfox">
+     <meta name="author" content="komcsierik">
+     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+     <LINK REL="SHORTCUT ICON" HREF="belepes/icon/icon.ico" />
+     <link rel="stylesheet" href="css/bootstrap.min.css">
+     <link rel="stylesheet" href="css/font-awesome.min.css">
+     <link rel="stylesheet" href="css/owl.carousel.css">
+     <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+     <!-- MAIN CSS -->
+     <link rel="stylesheet" href="css/style.css">
+
 </head>
-<body>
-  <iframe width="100%" height="100%" src="http://terkep.cloudfox.ga:8123/">
-  </iframe>
+<body id="top" data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
+
+     <!-- PRE LOADER -->
+     <section class="preloader">
+          <div class="spinner">
+               <span class="spinner-rotate"></span>
+          </div>
+     </section>
+
+
+     <!-- MENU -->
+     <section class="navbar custom-navbar navbar-fixed-top" role="navigation">
+          <div class="container">
+
+               <div class="navbar-header">
+                    <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                         <span class="icon icon-bar"></span>
+                         <span class="icon icon-bar"></span>
+                         <span class="icon icon-bar"></span>
+                    </button>
+
+                    <!-- lOGO TEXT HERE -->
+                    <a href="http://cloudfox.ga/index.html" class="navbar-brand">Cloudfox</a>
+               </div>
+
+               <!-- MENU LINKS -->
+               <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-nav-first">
+                         <li><a href="index.html">Kezdőlap</a></li>
+                         <li class="active"><a href="terkep/terkep.html">Online Térkép</a></li>
+                         <li><a href="https://discord.io/cloudfox">Discord</a></li>
+                         <li><a href="belepes/register.php">Regisztráció</a></li>
+                         <li><a href="belepes/bejelentkezes.php">Belépés</a></li>
+                    </ul>
+               </div>
+
+          </div>
+     </section>
+     <!-- Térkép -->
+     <body>
+
+        <!-- <iframe width="100%" height="300" src="http://terkep.cloudfox.ga:8123/"> --><iframe src="http://terkep.cloudfox.ga:8123/" width="100%" height="650" style="border:none;">
+        </iframe>
+
+
+
+    <!-- FOOTER -->
+     <footer id="footer">
+        <div class="container">
+             <div class="row">
+
+                  <div class="col-md-4 col-sm-6">
+                       <div class="footer-info">
+                            <div class="section-title">
+                                 <h2>Cloudfox</h2>
+                            </div>
+                            <address>
+                                 <p>egyéb <br>info</p>
+                            </address>
+
+                            <div class="copyright-text"> 
+                                 <p>Copyright &copy; 2021 Cloudfox</p>
+                                 <p>Weboldalt készítette: komcsierik</p>
+                            </div>
+                       </div>
+                  </div>
+
+                  <div class="col-md-4 col-sm-6">
+                       <div class="footer-info">
+                            <div class="section-title">
+                                 <h2>E-mail cím</h2>
+                            </div>
+                            <address>
+                                 <p>erik@bigboss.hu </p>
+                                 <p><a href="mailto:erik@bigboss.hu">erik@bigboss.hu</a></p>
+                            </address>
+
+                       </div>
+                  </div> 
+             </div>
+        </div>
+   </footer>
+
+   <!-- SCRIPTS -->
+   <script src="js/jquery.js"></script>
+   <script src="js/bootstrap.min.js"></script>
+   <script src="js/owl.carousel.min.js"></script>
+   <script src="js/smoothscroll.js"></script>
+   <script src="js/custom.js"></script>
+
 </body>
+</html>  
