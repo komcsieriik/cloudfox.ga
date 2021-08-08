@@ -7,6 +7,7 @@
   <meta name="keyword" content="minecraft theme, iLimoPhP">
   <meta name="description" content="Cloudfox">
   <title>Cloudfox | Regisztráció</title>
+  <LINK REL="SHORTCUT ICON" HREF="icon/icon.ico" />
   <link rel="stylesheet" href="others/ionicons/css/ionicons.min.css">
 	<link rel="stylesheet" type="text/css" href="others/bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="others/css/my-login.css">

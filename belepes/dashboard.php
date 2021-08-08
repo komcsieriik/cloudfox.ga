@@ -21,6 +21,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
   <meta name="author" content="iLimoPhP">
   <meta name="keyword" content="minecraft theme, iLimoPhP">
   <meta name="description" content="Servername">
+  <LINK REL="SHORTCUT ICON" HREF="icon/icon.ico" />
   <link rel="stylesheet" href="others/stilus.css">  
   <title>Cloudfox - kezelőfelület</title>
   <link rel="stylesheet" href="others/ionicons/css/ionicons.min.css">

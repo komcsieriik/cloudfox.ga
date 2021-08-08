@@ -18,6 +18,7 @@ if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
   <meta name="keyword" content="minecraft theme, ilimophp">
   <meta name="description" content="Cloudfox - Bejelentkezés">
   <title>Cloudfox | Bejelentkezés</title>
+  <LINK REL="SHORTCUT ICON" HREF="icon/icon.ico" />
   <link rel="stylesheet" href="others/ionicons/css/ionicons.min.css">
 	<link rel="stylesheet" type="text/css" href="others/bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="others/css/my-login.css">
