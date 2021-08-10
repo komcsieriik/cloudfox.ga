@@ -2,9 +2,9 @@
 
 session_start();
 
-// Ellenorzi ha már bevan jelentkezve a user
+// Ellenorzi ha már bevan jelentkezve a user     header("location: dashboard.php");
 if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
-    header("location: dashboard.php");
+    header("location: console/index.html");
     exit;
 }
 ?>
