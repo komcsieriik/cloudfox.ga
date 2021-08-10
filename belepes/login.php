@@ -10,14 +10,21 @@ if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
 ?>
 
 <!DOCTYPE html>
-<html>
+<html lang="en" prefix="og: https://ogp.me/ns#">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="author" content="iLimoPhP">
-  <meta name="keyword" content="minecraft theme, ilimophp">
-  <meta name="description" content="Cloudfox - Bejelentkezés">
-  <title>Cloudfox | Bejelentkezés</title>
+ <!-- Meta -->
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+     <meta name="author" content="komcsierik">
+     <meta name="keywords" content="cloudfox">
+     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+     <meta property="og:type" content="Cloudfox" />
+     <meta property="og:title" content="Minecraft szerver" />
+     <meta property="og:description" content="Mennyire vagy jó túlélő? Próbáld ki magad a szerverünkön te is! Egyszerű túlélő szerver, kisebb kiegészítésekkel." />
+     <meta property="og:image" content="http://cloudfox.ga/belepes/logo.png" />
+     <meta property="og:url" content="http://cloudfox.ga/" />
+     <meta property="og:url" content="http://cloudfox.ga/index.html" />
+ <!-- /Meta-->
   <LINK REL="SHORTCUT ICON" HREF="icon/icon.ico" />
   <link rel="stylesheet" href="others/ionicons/css/ionicons.min.css">
 	<link rel="stylesheet" type="text/css" href="others/bootstrap/css/bootstrap.min.css">
