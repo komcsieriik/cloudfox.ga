@@ -4,7 +4,7 @@ session_start();
 
 // Ellenorzi ha már bevan jelentkezve a user
 if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
-    header("location: dashboard.php");
+    header("location: belepes/dashboard.php ");
     exit;
 }
 ?>
