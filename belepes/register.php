@@ -10,9 +10,9 @@
      <meta property="og:type" content="Cloudfox" />
      <meta property="og:title" content="Minecraft szerver" />
      <meta property="og:description" content="Mennyire vagy jó túlélő? Próbáld ki magad a szerverünkön te is! Egyszerű túlélő szerver, kisebb kiegészítésekkel." />
-     <meta property="og:image" content="http://cloudfox.ga/belepes/logo.png" />
-     <meta property="og:url" content="http://cloudfox.ga/" />
-     <meta property="og:url" content="http://cloudfox.ga/index.html" />
+     <meta property="og:image" content="https://cloudfox.ga/belepes/logo.png" />
+     <meta property="og:url" content="https://cloudfox.ga/" />
+     <meta property="og:url" content="https://cloudfox.ga/index.html" />
  <!-- /Meta-->
   <LINK REL="SHORTCUT ICON" HREF="icon/icon.ico" />
   <link rel="stylesheet" href="others/ionicons/css/ionicons.min.css">
