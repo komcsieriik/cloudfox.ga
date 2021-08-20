@@ -3,7 +3,7 @@
   See AuthMeController.php and the extending classes for the PHP code you need.
 -->
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
  <head>
    <title>AuthMe Integration Sample</title>
    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
